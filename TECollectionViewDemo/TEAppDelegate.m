@@ -8,6 +8,7 @@
 
 #import "TEAppDelegate.h"
 
+#import "TECollectionViewController.h"
 #import "TEColorList.h"
 #import "UIColor+TEExtensions.h"
 
@@ -34,7 +35,7 @@
 
 - (NSArray *)controllerInfo;
 {
-    return @[  ];
+    return @[ [TECollectionViewInformation informationWithController:[TECollectionViewController class] layout:[UICollectionViewFlowLayout class] title:@"Basic"] ];
 }
 
 - (void)addRandomColor;

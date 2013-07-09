@@ -18,6 +18,7 @@
 		22EE673E178C5916001A3BB6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22EE673D178C5916001A3BB6 /* Default-568h@2x.png */; };
 		22EE6746178C5948001A3BB6 /* UIColor+TEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE6745178C5948001A3BB6 /* UIColor+TEExtensions.m */; };
 		22EE6749178C5A96001A3BB6 /* TEColorList.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE6748178C5A96001A3BB6 /* TEColorList.m */; };
+		22EE674F178C5FA6001A3BB6 /* TECollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE674E178C5FA6001A3BB6 /* TECollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		22EE6745178C5948001A3BB6 /* UIColor+TEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TEExtensions.m"; sourceTree = "<group>"; };
 		22EE6747178C5A96001A3BB6 /* TEColorList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEColorList.h; sourceTree = "<group>"; };
 		22EE6748178C5A96001A3BB6 /* TEColorList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEColorList.m; sourceTree = "<group>"; };
+		22EE674D178C5FA6001A3BB6 /* TECollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECollectionViewController.h; sourceTree = "<group>"; };
+		22EE674E178C5FA6001A3BB6 /* TECollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TECollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +89,10 @@
 			children = (
 				22EE6736178C5916001A3BB6 /* TEAppDelegate.h */,
 				22EE6737178C5916001A3BB6 /* TEAppDelegate.m */,
+				22EE6750178C60E9001A3BB6 /* Data Source */,
+				22EE6751178C60F5001A3BB6 /* Collection View(s) */,
+				22EE6752178C6105001A3BB6 /* Extensions */,
 				22EE672E178C5916001A3BB6 /* Supporting Files */,
-				22EE6744178C5948001A3BB6 /* UIColor+TEExtensions.h */,
-				22EE6745178C5948001A3BB6 /* UIColor+TEExtensions.m */,
-				22EE6747178C5A96001A3BB6 /* TEColorList.h */,
-				22EE6748178C5A96001A3BB6 /* TEColorList.m */,
 			);
 			path = TECollectionViewDemo;
 			sourceTree = "<group>";
@@ -107,6 +109,33 @@
 				22EE673D178C5916001A3BB6 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22EE6750178C60E9001A3BB6 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				22EE6747178C5A96001A3BB6 /* TEColorList.h */,
+				22EE6748178C5A96001A3BB6 /* TEColorList.m */,
+			);
+			name = "Data Source";
+			sourceTree = "<group>";
+		};
+		22EE6751178C60F5001A3BB6 /* Collection View(s) */ = {
+			isa = PBXGroup;
+			children = (
+				22EE674D178C5FA6001A3BB6 /* TECollectionViewController.h */,
+				22EE674E178C5FA6001A3BB6 /* TECollectionViewController.m */,
+			);
+			name = "Collection View(s)";
+			sourceTree = "<group>";
+		};
+		22EE6752178C6105001A3BB6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				22EE6744178C5948001A3BB6 /* UIColor+TEExtensions.h */,
+				22EE6745178C5948001A3BB6 /* UIColor+TEExtensions.m */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +208,7 @@
 				22EE6738178C5916001A3BB6 /* TEAppDelegate.m in Sources */,
 				22EE6746178C5948001A3BB6 /* UIColor+TEExtensions.m in Sources */,
 				22EE6749178C5A96001A3BB6 /* TEColorList.m in Sources */,
+				22EE674F178C5FA6001A3BB6 /* TECollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
