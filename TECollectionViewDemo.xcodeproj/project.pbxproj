@@ -17,6 +17,7 @@
 		22EE673C178C5916001A3BB6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22EE673B178C5916001A3BB6 /* Default@2x.png */; };
 		22EE673E178C5916001A3BB6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22EE673D178C5916001A3BB6 /* Default-568h@2x.png */; };
 		22EE6746178C5948001A3BB6 /* UIColor+TEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE6745178C5948001A3BB6 /* UIColor+TEExtensions.m */; };
+		22EE6749178C5A96001A3BB6 /* TEColorList.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE6748178C5A96001A3BB6 /* TEColorList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		22EE673D178C5916001A3BB6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		22EE6744178C5948001A3BB6 /* UIColor+TEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TEExtensions.h"; sourceTree = "<group>"; };
 		22EE6745178C5948001A3BB6 /* UIColor+TEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TEExtensions.m"; sourceTree = "<group>"; };
+		22EE6747178C5A96001A3BB6 /* TEColorList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEColorList.h; sourceTree = "<group>"; };
+		22EE6748178C5A96001A3BB6 /* TEColorList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEColorList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				22EE672E178C5916001A3BB6 /* Supporting Files */,
 				22EE6744178C5948001A3BB6 /* UIColor+TEExtensions.h */,
 				22EE6745178C5948001A3BB6 /* UIColor+TEExtensions.m */,
+				22EE6747178C5A96001A3BB6 /* TEColorList.h */,
+				22EE6748178C5A96001A3BB6 /* TEColorList.m */,
 			);
 			path = TECollectionViewDemo;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				22EE6734178C5916001A3BB6 /* main.m in Sources */,
 				22EE6738178C5916001A3BB6 /* TEAppDelegate.m in Sources */,
 				22EE6746178C5948001A3BB6 /* UIColor+TEExtensions.m in Sources */,
+				22EE6749178C5A96001A3BB6 /* TEColorList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
