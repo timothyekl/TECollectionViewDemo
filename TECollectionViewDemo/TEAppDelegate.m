@@ -10,6 +10,7 @@
 
 #import "TECollectionViewController.h"
 #import "TEColorList.h"
+#import "TEZigzagCollectionViewLayout.h"
 #import "UIColor+TEExtensions.h"
 
 #define DEBUG_COLOR_MULTIPLIER 30
@@ -35,7 +36,8 @@
 
 - (NSArray *)controllerInfo;
 {
-    return @[ [TECollectionViewInformation informationWithController:[TECollectionViewController class] layout:[UICollectionViewFlowLayout class] title:@"Basic"] ];
+    return @[ [TECollectionViewInformation informationWithController:[TECollectionViewController class] layout:[UICollectionViewFlowLayout class] title:@"Basic"],
+              [TECollectionViewInformation informationWithController:[TECollectionViewController class] layout:[TEZigzagCollectionViewLayout class] title:@"Zigzag"] ];
 }
 
 - (void)addRandomColor;
