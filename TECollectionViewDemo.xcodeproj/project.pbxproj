@@ -20,6 +20,7 @@
 		22EE6749178C5A96001A3BB6 /* TEColorList.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE6748178C5A96001A3BB6 /* TEColorList.m */; };
 		22EE674F178C5FA6001A3BB6 /* TECollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE674E178C5FA6001A3BB6 /* TECollectionViewController.m */; };
 		22EE675A178C6A2C001A3BB6 /* TEZigzagCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE6759178C6A2C001A3BB6 /* TEZigzagCollectionViewLayout.m */; };
+		22EE6789178D08BA001A3BB6 /* TERandomSizeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE6788178D08BA001A3BB6 /* TERandomSizeCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		22EE674E178C5FA6001A3BB6 /* TECollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TECollectionViewController.m; sourceTree = "<group>"; };
 		22EE6758178C6A2C001A3BB6 /* TEZigzagCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEZigzagCollectionViewLayout.h; sourceTree = "<group>"; };
 		22EE6759178C6A2C001A3BB6 /* TEZigzagCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEZigzagCollectionViewLayout.m; sourceTree = "<group>"; };
+		22EE6787178D08BA001A3BB6 /* TERandomSizeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERandomSizeCollectionViewController.h; sourceTree = "<group>"; };
+		22EE6788178D08BA001A3BB6 /* TERandomSizeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TERandomSizeCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,8 @@
 			children = (
 				22EE674D178C5FA6001A3BB6 /* TECollectionViewController.h */,
 				22EE674E178C5FA6001A3BB6 /* TECollectionViewController.m */,
+				22EE6787178D08BA001A3BB6 /* TERandomSizeCollectionViewController.h */,
+				22EE6788178D08BA001A3BB6 /* TERandomSizeCollectionViewController.m */,
 				22EE6758178C6A2C001A3BB6 /* TEZigzagCollectionViewLayout.h */,
 				22EE6759178C6A2C001A3BB6 /* TEZigzagCollectionViewLayout.m */,
 			);
@@ -215,6 +220,7 @@
 				22EE6749178C5A96001A3BB6 /* TEColorList.m in Sources */,
 				22EE674F178C5FA6001A3BB6 /* TECollectionViewController.m in Sources */,
 				22EE675A178C6A2C001A3BB6 /* TEZigzagCollectionViewLayout.m in Sources */,
+				22EE6789178D08BA001A3BB6 /* TERandomSizeCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

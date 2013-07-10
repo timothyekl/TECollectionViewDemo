@@ -10,6 +10,7 @@
 
 #import "TECollectionViewController.h"
 #import "TEColorList.h"
+#import "TERandomSizeCollectionViewController.h"
 #import "TEZigzagCollectionViewLayout.h"
 #import "UIColor+TEExtensions.h"
 
@@ -37,6 +38,7 @@
 - (NSArray *)controllerInfo;
 {
     return @[ [TECollectionViewInformation informationWithController:[TECollectionViewController class] layout:[UICollectionViewFlowLayout class] title:@"Basic"],
+              [TECollectionViewInformation informationWithController:[TERandomSizeCollectionViewController class] layout:[UICollectionViewFlowLayout class] title:@"Random"],
               [TECollectionViewInformation informationWithController:[TECollectionViewController class] layout:[TEZigzagCollectionViewLayout class] title:@"Zigzag"] ];
 }
 
