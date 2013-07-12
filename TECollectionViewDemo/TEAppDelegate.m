@@ -14,7 +14,7 @@
 #import "TEZigzagCollectionViewLayout.h"
 #import "UIColor+TEExtensions.h"
 
-#define DEBUG_COLOR_MULTIPLIER 30
+#define DEBUG_COLOR_MULTIPLIER 10
 
 @interface TEAppDelegate ()
 
